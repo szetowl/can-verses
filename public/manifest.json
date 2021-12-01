@@ -1,6 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "福音粵曲",
+  "name": "福音粵曲",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "yellow",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +13,25 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "/assets/icons/can-icon-72.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
+      "sizes":"72x72"
+  },
+  {
+      "src": "/assets/icons/can-icon-96.png",
       "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+      "sizes":"96x96"
+  },
+  {
+      "src": "/assets/icons/can-icon-256.png",
+      "type": "image/png",
+      "sizes":"256x256"
+  },
+  {
+      "src": "/assets/icons/can-icon-512.png",
+      "type": "image/png",
+      "sizes":"512x512"
+  }
+    
+  ]
 }

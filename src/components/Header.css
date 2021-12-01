@@ -1,0 +1,15 @@
+.header{
+    background-color:#6200ea;
+      position: fixed;
+    left: 0;
+    top: 0;
+    width:100%;
+    min-height: 100px;
+    color:lightyellow;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px ;
+    border-top: solid 5px #0a00b6;
+    border-bottom : solid 5px #0a00b6;
+}
